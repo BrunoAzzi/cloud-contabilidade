@@ -8,6 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "deploy": "ng build --aot --prod",
+    "postdeploy": "firebase deploy",
     "e2e": "ng e2e"
   },
   "private": true,
